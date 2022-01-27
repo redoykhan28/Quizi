@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+    animation: transitionIN 0.75s;
+}
+
+@keyframes transitionIN {
+
+    from{
+
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+
+        
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
+.hed{
+
+    
+    font-family: 'Kirang Haerang', cursive;
+   }
+
+   .nv2{
+    width: 100%;
+    background-color:#FC7736;
+    box-shadow: 0px 0px 5px 2px black;
+    position: fixed;
+    z-index: 9999;
+   
+   }
+
+   .im{
+
+    width: 20px;
+    height: 15px;
+    margin-left: 35px;
+}
+
+.dm{
+
+    margin-right: 55px;
+
+}
+
+.col1{
+
+    background-color: white;
+    
+
+}
+
+.aim{
+
+
+    width: 200px;
+    height: 200px;
+   
+}
+.r1{
+
+    background-color: #F1F4F6;
+    padding-top: 35px;
+    margin-left: 10px;
+    
+}
+
+.mod{
+
+box-shadow: 0px 1px 4px 0px gray;
+border-radius: 8px;
+
+}
+
+
+.vertical-menu{
+
+    text-align: justify;
+}
+
+
+  
+  .vertical-menu a {
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+   
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #F1F4F6;
+    color: black; /* Dark grey background on mouse-over */
+    border-radius: 10px;
+
+  }
+  
+  .vertical-menu a.active {
+    background-color: #FC7736; /* Add a green color to the "active/current" link */
+    color: black;
+    border-radius: 10px;
+  }
+
+.imd{
+
+    width: 40px;
+    height: 40px;
+}
+
+
+.cim{
+
+    width: 300px;
+    height: 200px;
+}
+
+.cardicon1{
+    width: 120px;
+    height: 120px;
+}
+
+.card1{
+
+    background-color: white;
+    box-shadow: 0px 1px 2px 0px gray;
+    transition: .4s ease-in-out;
+    transform: scale(1.0);
+    border-radius: 8px;
+}
+.card1txt{
+
+    color: #FC7736;
+}
+
+
+.card1:hover{
+
+    background-color: #F1F4F6;
+    box-shadow: 0px 1px 2px 0px gray;
+   
+    transform: scale(1.1);
+    
+}
+footer{
+
+    background-color:#FC7736 ;
+    
+}
+.iml{
+
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+}
+
+
+.imp{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;   
+   
+}
+
+.pr{
+
+
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+.bt1{
+
+    background-color:#FC7736 ;
+    color: white;
+
+
+}
+
+.bt2{
+
+    background-color:#385A64 ;
+    color: white;
+
+
+}
+
+.im2{
+
+    width: 100%;
+    height: 650px;
+}
+
+
+.a1{
+
+    background-color: rgb(236, 236, 236);
+  
+    border-radius: 20px;
+
+}
+.a1:hover{
+
+    background-color: rgb(236, 236, 236, 0.5);
+  
+    border-radius: 20px;
+
+}
+
+

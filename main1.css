@@ -1,0 +1,389 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+
+    animation: transitionIN 0.75s;
+}
+
+@keyframes transitionIN {
+
+    from{
+
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+
+        
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
+.nv1{
+    width: 100%;
+    background-color: #f57c63;
+    box-shadow: 0px 0px 7px 1px black;
+    position: fixed;
+    z-index: 9999;
+  
+}
+
+
+
+.sr1{
+    background-color: rgb(255,255,255,.6);
+    border-radius: 3px;
+    outline: none;
+}
+
+.ht1{
+
+ margin-top: 100px;
+    color: tomato;
+    font-family: 'Dela Gothic One', cursive;
+    margin-left: 24px;
+    animation: slide .8s ease-out;
+
+}
+
+@keyframes slide{
+
+
+    0%{
+        transform: skewX(53deg) translateX(-500px);
+        opacity: 0;
+    }
+    60%{
+        transform:  translateX(0px);
+       
+    }
+    62%{
+        transform: skewX(0deg) translateX(30px);
+        opacity: 0;
+    }
+    70%{
+        transform: skewX(-20deg);
+        opacity: 1;
+    }
+    80%{
+        transform: skewX(0deg) translateX(0px);
+       
+    }
+    90%{
+        transform: skewX(-5deg);
+        
+    }
+
+
+    100%{
+        transform: skewX(0);
+    
+    }
+}
+
+.ht2{
+
+  
+    color: tomato;
+       font-family: 'Dela Gothic One', cursive;
+       margin-left: 24px;
+       animation: slide2 1.4s ease-in;
+
+   }
+   
+@keyframes slide2{
+
+
+    0%{
+        transform: skewX(53deg) translateX(-500px);
+        opacity: 0;
+    }
+    60%{
+        transform:  translateX(0px);
+       
+    }
+    62%{
+        transform: skewX(0deg) translateX(30px);
+        opacity: 0;
+    }
+    70%{
+        transform: skewX(-20deg);
+        opacity: 1;
+    }
+    80%{
+        transform: skewX(0deg) translateX(0px);
+       
+    }
+    90%{
+        transform: skewX(-5deg);
+        
+    }
+
+
+    100%{
+        transform: skewX(0);
+    
+    }
+}
+
+   .ht5{
+    margin-top: 50px;
+    
+    font-family: 'Dela Gothic One', cursive;
+    margin-left: 24px;
+
+   }
+
+   .hed{
+
+    
+    font-family: 'Kirang Haerang', cursive;
+   }
+
+   .p1{
+   
+
+    margin-left: 24px;
+    font-family: 'Dela Gothic One', cursive;
+   
+
+   }
+
+   .bt1{
+    color: white;
+   font-weight: bold; 
+   background-color: tomato;
+    padding: 20px;
+   }
+   
+   .bt1:hover{
+    
+   background-color: gray;
+    
+   }
+
+   .lk1{
+
+    color: tomato;
+    text-decoration: none;
+
+
+   }
+   .lk1:hover{
+    
+    color: gray;
+     
+    }
+
+   .lk2{
+
+    color: tomato;
+    text-decoration: none;
+
+   }
+
+   .lk2:hover{
+    
+    color: gray;
+     
+    }
+
+  
+
+   .lkm{
+
+    text-align: center;
+    margin-left: 130px;
+    font-weight: bolder;
+
+   }
+.im{
+
+    width: 95px;
+    height: 80px;
+}
+
+
+
+.r1{
+
+    background-color: #f57c63 ;
+}
+.lst{
+
+    list-style-type: none;
+}
+
+.co1{
+
+    margin-top: 130px;
+}
+
+.co2{
+
+    margin-top: 90px;
+
+}
+
+.ht3{
+
+    padding: 100px;
+}
+
+.im2{
+
+    width: 500px;
+    height: 500px;
+    
+}
+
+.t2{
+
+
+    margin-left: 250px;
+
+
+}
+
+.im3{
+
+    width: 700px;
+    height: 400px;
+    
+}
+
+.mimg{
+
+
+    width: 900px;
+    height: 500px;
+   
+}
+
+.tl1{
+
+    color:#f57c63  ;
+    font-family: 'Kirang Haerang', cursive;
+
+
+}
+
+.tl2{
+
+    color:#C6926D  ;
+    font-family: 'Kirang Haerang', cursive;
+
+
+}
+
+.tl3{
+
+    color:#7499F1  ;
+    font-family: 'Kirang Haerang', cursive;
+
+
+}
+
+.tl4{
+
+    color:#ffc801  ;
+    font-family: 'Kirang Haerang', cursive;
+
+
+}
+
+.tl5{
+
+    color:#f57c63  ;
+    font-family: 'Kirang Haerang', cursive;
+
+
+}
+
+.slide-in{
+
+    animation: slideMe 1.4s ease;
+}
+
+@keyframes slideMe{
+
+
+    0%{
+        transform: translateY(250px);
+    }
+
+    100%{
+        transform: translateY(0);
+    
+    }
+}
+
+.pr1{
+
+    background-color: #f57c63;
+}
+.pr2{
+
+    background-color: #C6926D ;
+}
+.pr3{
+
+    background-color: #7499F1;
+}
+.pr4{
+
+    background-color: #ffc801;
+}
+.pr5{
+
+    background-color: #f57c63;
+}
+
+.ani{
+
+    animation: slidea 1.2s ease;
+
+}
+
+@keyframes slidea{
+
+
+    0%{
+        transform: translateY(40px);
+    }
+
+    100%{
+        transform: translateY(0);
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

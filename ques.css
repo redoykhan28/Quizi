@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    
+}
+
+body{
+
+    animation: transitionIN 0.75s;
+}
+
+@keyframes transitionIN {
+
+    from{
+
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+
+        
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
+.hed{
+
+    
+    font-family: 'Kirang Haerang', cursive;
+   }
+
+   .nv2{
+    width: 100%;
+    background-color:#FC7736;
+    box-shadow: 0px 0px 2px 2px black;
+    position: fixed;
+    z-index: 9999;
+   
+   }
+
+   .im{
+
+    width: 20px;
+    height: 15px;
+    margin-left: 35px;
+}
+.dm{
+
+    margin-right: 55px;
+}
+
+.im1{
+
+    width: 100%;
+    height: 600px;
+
+}
+
+footer{
+
+    background-color:#FC7736 ;
+    
+}
+
+.cl1{
+
+    margin-left: 1px solid black;
+    margin-right: 1px solid black;
+
+   
+    margin-top: 75px;
+
+
+
+}
+
+.r1{
+
+    margin-left: 1px solid black;
+    margin-right: 1px solid black;
+
+   
+    
+  
+
+
+
+}
+.bt1{
+
+    background-color:#FC7736 ;
+    color: white;
+
+
+}
+
+.bt2{
+
+    background-color:#D05670 ;
+    color: white;
+
+
+}
+
+.bt3{
+
+    background-color:#FC7736 ;
+    color: white;
+
+
+}
+
+.im2{
+
+    width: 100%;
+    height: 650px;
+
+}
+
+.col1{
+
+    margin-top: 100px;
+}
+
+.box{
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #FC7736;
+    outline: none;
+   
+}
+
+.iml{
+
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+}
+
+.cl2{
+    
+    background-color: white;
+    margin-top: 35px;
+    
+}
+
+.imp{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;   
+   
+}
+
+.pr{
+
+
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+.tt1{
+
+    background-color: #FC7736;
+  
+}
+.tt{
+    border-radius: 15px;
+}
+
+.imm{
+
+    width: 80px;
+    height: 80px;
+   
+}
+.a1{
+
+    background-color: rgb(236, 236, 236);
+  
+    border-radius: 20px;
+
+}
+.a1:hover{
+
+    background-color: rgb(236, 236, 236, 0.5);
+  
+    border-radius: 20px;
+
+}
+
+.bt3{
+
+    background-color: #FC7736;
+}

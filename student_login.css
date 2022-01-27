@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+    animation: transitionIN 0.75s;
+}
+
+@keyframes transitionIN {
+
+    from{
+
+        opacity: 0;
+        transform: rotateX(-20deg);
+    }
+
+    to{
+
+        
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+.hed{
+
+    
+    font-family: 'Kirang Haerang', cursive;
+   }
+
+   .nv2{
+
+    background-color: #316D6D;
+    box-shadow: 0px 0px 5px 2px black;
+   }
+
+   .im{
+
+    width: 50px;
+    height: 50px;
+}
+.im1{
+
+    width: 100%;
+    height: 650px;
+
+}
+
+.tb{
+
+    margin-top: 40px;
+}
+
+.bt1{
+
+    background-color:#b8def0; 
+    
+
+}
+
+.ct{
+
+    margin-top: 200px;
+}
+.cbg{
+
+    background-color: #C5E5F4;
+}
+
+.tb1{
+
+
+    color:#316D6D;
+    font-weight: bold;
+}
+
+.tb2{
+
+font-weight: bold;
+    color:#316D6D;
+}
+
+.bb{
+
+    background-color:#316D6D ;
+    color:white;
+}
+
+.bb:hover{
+
+   opacity: 0.9;
+    
+}
+
+.bb2{
+
+    background-color:#316D6D ;
+    color:white;
+}
+
+.bb2:hover{
+
+    opacity: 0.9;
+     
+ }
+
+ .box{
+     position: relative;
+ }
+
+
+ .fa{
+    position: absolute;
+     font-size: 20px;
+     margin-left: 280px;
+     cursor: pointer;
+     margin-top: -25px;
+     display:block;
+ }
+ 
+ .ff{
+     position: absolute;
+      font-size: 20px;
+      margin-left: 175px;
+      cursor: pointer;
+      margin-top: -25px;
+      display:block;
+  }
+
+
+

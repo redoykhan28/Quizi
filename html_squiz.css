@@ -1,0 +1,316 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color:  hsl(23, 16%, 90%);
+    animation: transitionIN 0.75s;
+
+}
+
+
+@keyframes transitionIN {
+
+    from{
+
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+
+        
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
+.hed{
+
+    
+    font-family: 'Kirang Haerang', cursive;
+   }
+
+
+
+   .im{
+
+    width: 50px;
+    height: 50px;
+}
+
+.main-div{
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    place-items: center;
+}
+
+.inner-div{
+
+    width: 40vw;
+    background-color: #fff;
+    padding: 0 8rem;
+    padding-bottom: 3rem;
+    border: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    
+
+    
+}
+
+.ht{
+
+    font-family: 'Gowun Batang', serif;
+    margin-bottom: 20px;
+    
+}
+
+.qs{
+
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    animation: slide .8s ease-out;
+    margin-bottom: 1.5rem;
+
+
+}
+
+
+@keyframes slide2{
+
+
+    0%{
+        transform: skewX(53deg) translateX(-500px);
+        opacity: 0;
+    }
+    60%{
+        transform:  translateX(0px);
+       
+    }
+    62%{
+        transform: skewX(0deg) translateX(30px);
+        opacity: 0;
+    }
+    70%{
+        transform: skewX(-20deg);
+        opacity: 1;
+    }
+    80%{
+        transform: skewX(0deg) translateX(0px);
+       
+    }
+    90%{
+        transform: skewX(-5deg);
+        
+    }
+
+
+    100%{
+        transform: skewX(0);
+    
+    }
+}
+
+.inner-div li{
+
+    margin-top: 1rem;
+    list-style: none;
+    border: 2px solid rgba(239, 130, 93, 0.5 );
+   border-radius: 10px;
+    line-height: 40px;
+    padding-left: 12px;
+    animation: slide 1.4s ease-in;
+    transition: 0.3s all;
+    font-weight: bold;
+}
+
+hr{
+
+    background-color: #e45e30;
+ 
+
+   
+}
+
+
+@keyframes slide{
+
+
+    0%{
+        transform: skewX(53deg) translateX(-500px);
+        opacity: 0;
+    }
+    60%{
+        transform:  translateX(0px);
+       
+    }
+    62%{
+        transform: skewX(0deg) translateX(30px);
+        opacity: 0;
+    }
+    70%{
+        transform: skewX(-20deg);
+        opacity: 1;
+    }
+    80%{
+        transform: skewX(0deg) translateX(0px);
+       
+    }
+    90%{
+        transform: skewX(-5deg);
+        
+    }
+
+
+    100%{
+        transform: skewX(0);
+    
+    }
+}
+
+.inner-div li:hover{
+
+    background-color: rgba(228, 94, 48, 0.3);
+    color:#e45e30 ;
+    
+
+}
+
+.rd{
+
+    background-color: #e45e30;
+}
+
+
+input{
+
+    cursor: pointer;
+}
+
+label{
+
+    cursor: pointer;
+}
+
+.bt1{
+
+    border: none;
+    padding: 15px 35px;
+    background-color: #e45e30;
+    color: #fff;
+    border-radius: 27px;
+    transition: 0.4s all;
+    display: block;
+  margin: auto;
+}
+
+.bt1:hover{
+
+    cursor: pointer;
+    background-color: #c1c9cc;
+    color: black;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+#showScore{
+
+    text-align: center;
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    animation: slidea 1.2s ease;
+    transition: 0.4s all;
+
+
+}
+
+#showScore:hover{
+
+    box-shadow: 0px 2rem 2rem -0.7rem rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+@keyframes slidea{
+
+
+    0%{
+        transform: translateY(40px);
+    }
+
+    100%{
+        transform: translateY(0);
+    
+    }
+}
+.scoreArea{
+    display: none;
+}
+
+.bt2{
+
+    background-color: #e45e30;
+    outline: none;
+    color: white;
+    display: inline-block;
+    margin: auto;
+ 
+
+
+}
+
+.bt2:hover{
+
+    background-color:rgb(228, 94, 48,0.9) ;
+    color: white;
+}
+
+.bt3{
+
+    background-color: #455A64;
+    outline: none;
+    color: white;
+    
+    display: inline-block;
+    margin: auto;
+}
+
+.bt3:hover{
+
+    background-color: #455A64 ;
+    opacity: 0.9;
+    color: white;
+}
+.h5t{
+
+    margin-bottom: 25px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.h6t{
+
+    margin-bottom: 25px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.time{
+
+   
+    
+    background-color: #e45e30;
+    color: #fff;
+    border-radius: 27px;
+    font-weight: bold;
+   
+
+  
+}
+
+

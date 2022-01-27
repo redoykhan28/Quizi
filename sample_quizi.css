@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.container-fluid{
+
+    animation: transitionIN 0.75s;
+}
+
+@keyframes transitionIN {
+
+    from{
+
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+
+        
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
+
+.nv1{
+    width: 100%;
+    background-color: #8d2fec;
+    box-shadow: 0px 1px 5px 1px black;
+    position: fixed;
+    z-index: 9999;
+  
+}
+
+
+
+.sr1{
+    background-color: rgb(255,255,255,.6);
+    border-radius: 3px;
+    outline: none;
+}
+
+.ht1{
+
+ margin-top: 100px;
+    color: tomato;
+    font-family: 'Dela Gothic One', cursive;
+    margin-left: 24px;
+}
+
+.ht2{
+
+  
+    color: tomato;
+       font-family: 'Dela Gothic One', cursive;
+       margin-left: 24px;
+   }
+
+   .ht5{
+    margin-top: 50px;
+    
+    font-family: 'Dela Gothic One', cursive;
+    margin-left: 24px;
+
+   }
+
+   .hed{
+
+    
+    font-family: 'Kirang Haerang', cursive;
+   }
+
+   .p1{
+   
+
+    margin-left: 24px;
+    font-family: 'Dela Gothic One', cursive;
+   
+
+   }
+
+  
+
+
+
+
+   .lkm{
+
+    text-align: center;
+    margin-left: 130px;
+    font-weight: bolder;
+
+   }
+.im{
+
+    width: 95px;
+    height: 80px;
+}
+
+
+
+.r1{
+
+    background-color: #8d2fec ;
+}
+.lst{
+
+    list-style-type: none;
+}
+
+.co1{
+
+    margin-top: 130px;
+}
+
+.co2{
+
+    margin-top: 90px;
+
+}
+
+.ht3{
+
+    padding: 100px;
+}
+
+.im2{
+
+    width: 500px;
+    height: 500px;
+    
+}
+
+.t2{
+
+
+    margin: 100px;
+
+
+}
+
+.im3{
+
+    width: 700px;
+    height: 400px;
+    
+}
+
+.mimg{
+
+
+    width: 680px;
+    height: 550px;
+    margin-bottom: 10px;
+}
+.btt{
+
+    background-color: #8d2fec ;
+    color: white;
+}
+.card1{
+
+    background-color: white;
+    box-shadow: 1px 1px 2px 0px gray;
+   
+  
+}
+.tth{
+
+    color:#8d2fec ;
+    font-family: 'Kirang Haerang', cursive;
+
+}
+.imm{
+
+    width: 80px;
+    height: 80px;
+   
+}
+.imm2{
+
+    border: 1px solid #DFDFDF;
+    box-shadow: 1px 1px 2px 0px gray;
+
+}
+.imm2:hover{
+
+    border: 1px solid #DFDFDF;
+    box-shadow: 2px 2px 10px 0px gray;
+
+}
+
+
+
+
+
+
